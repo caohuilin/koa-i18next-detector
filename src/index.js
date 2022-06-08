@@ -86,7 +86,7 @@ class LanguageDetector {
 
                 let cleanedLng = this.services.languageUtils.formatLanguageCode(lng);
 
-                if (this.services.languageUtils.isWhitelisted(cleanedLng)) {
+                if (this.services.languageUtils.isSupportedCode(cleanedLng)) {
                     found = cleanedLng;
                     ctx.i18nextLookupName = detectorName;
                 };

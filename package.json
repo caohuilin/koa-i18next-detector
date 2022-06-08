@@ -1,5 +1,5 @@
 {
-  "name": "koa-i18next-detector",
+  "name": "koa-i18next-detector-fixed",
   "version": "0.7.2",
   "description": "A i18next language detecting plugin for Koa 2.0 framework.",
   "main": "dist/index.js",
